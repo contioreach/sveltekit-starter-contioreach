@@ -1,0 +1,41 @@
+{
+  "name": "sveltekit-starter-contioreach",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A production-ready SvelteKit blog powered by the ContioReach headless CMS \u2014 cached CMS reads with tag-based invalidation, on-demand revalidation webhooks, SEO metadata and JSON-LD.",
+  "license": "MIT",
+  "homepage": "https://github.com/contioreach/sveltekit-starter-contioreach#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contioreach/sveltekit-starter-contioreach.git"
+  },
+  "keywords": [
+    "sveltekit",
+    "svelte",
+    "headless-cms",
+    "blog",
+    "on-demand-revalidation",
+    "contioreach",
+    "example",
+    "starter",
+    "tailwindcss",
+    "seo"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync",
+    "test": "node --test \"src/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^5.5.7",
+    "@sveltejs/kit": "^2.70.3",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "svelte": "^5.57.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
