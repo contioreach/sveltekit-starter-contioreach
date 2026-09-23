@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "type": "module",
-  "description": "A production-ready SvelteKit blog powered by the ContioReach headless CMS \u2014 cached CMS reads with tag-based invalidation, on-demand revalidation webhooks, SEO metadata and JSON-LD.",
+  "description": "SvelteKit 2 and Svelte 5 headless CMS blog starter — cached CMS reads with stale-while-revalidate and tag invalidation, a signed publish webhook, category archives, JSON-LD and sitemaps. Wired to the ContioReach headless CMS.",
   "license": "MIT",
   "homepage": "https://github.com/contioreach/sveltekit-starter-contioreach#readme",
   "repository": {
@@ -13,14 +13,22 @@
   "keywords": [
     "sveltekit",
     "svelte",
+    "svelte5",
+    "runes",
+    "ssr",
     "headless-cms",
-    "blog",
+    "blog-starter",
+    "stale-while-revalidate",
     "on-demand-revalidation",
-    "contioreach",
-    "example",
-    "starter",
+    "seo",
+    "json-ld",
+    "structured-data",
     "tailwindcss",
-    "seo"
+    "contioreach",
+    "cms",
+    "starter-template",
+    "headless cms blog",
+    "sveltekit blog starter"
   ],
   "scripts": {
     "dev": "vite dev",
