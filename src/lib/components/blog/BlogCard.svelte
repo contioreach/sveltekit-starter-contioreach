@@ -29,7 +29,7 @@
     {#if post.coverImage}
       <img
         src={post.coverImage}
-        alt={post.title}
+        alt={post.coverImageAlt || post.title}
         loading={priority ? "eager" : "lazy"}
         fetchpriority={priority ? "high" : "auto"}
         decoding="async"
