@@ -17,4 +17,6 @@ function required(name) {
 
 export const cmsApiUrl = () => required("CMS_API_URL");
 export const cmsApiKey = () => required("CMS_API_KEY");
-export const revalidationSecret = () => required("REVALIDATION_SECRET");
+/* Optional until you set the webhook up — while it is empty the webhook
+   rejects every call, so the site still runs on a fresh clone. */
+export const revalidationSecret = () => env.REVALIDATION_SECRET || "";
